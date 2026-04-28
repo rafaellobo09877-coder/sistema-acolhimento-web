@@ -56,7 +56,7 @@ http://localhost:5173
 
 ## 📸 Preview
 
-*(adicione aqui uma imagem do sistema rodando)*
+![Dashboard](./dashboard-acolhimento.png)
 
 ---
 
