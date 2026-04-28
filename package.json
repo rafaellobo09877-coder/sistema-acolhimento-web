@@ -1,0 +1,8 @@
+{
+  "name": "sistema-acolhimento-fullstack",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
