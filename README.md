@@ -1,44 +1,33 @@
 # 🏥 Sistema de Gestão de Acolhimento
 
-Sistema web full stack desenvolvido para gerenciamento de demandas de acolhimento institucional, com integração de planilhas e visualização de dados em tempo real.
-
-O sistema simula um ambiente real de gestão social, permitindo centralizar informações de diferentes fontes e transformá-las em indicadores visuais para tomada de decisão.
+Sistema web full stack para gerenciamento de demandas de acolhimento institucional, com integração de planilhas (Google Sheets) e visualização de dados em tempo real.
 
 ---
 
 ## 🚀 Tecnologias
 
-- **Frontend:** React + Vite
-- **Backend:** Node.js + Express
-- **Linguagem:** JavaScript
-- **Integração:** CSV (Google Sheets)
+* React + Vite
+* Node.js + Express
+* JavaScript
 
 ---
 
 ## 📊 Funcionalidades
 
-- Leitura automática de planilhas CSV (Google Sheets)
-- Dashboard com indicadores em tempo real
-- Visualização de dados por categoria
-- Filtros e organização de dados
-- Gestão de atendimentos:
+* Leitura de planilhas CSV (Google Sheets)
 
-  - Desospitalização  
-  - Pessoa Idosa  
-  - Criança e Adolescente  
-  - Unidades e Vagas  
+* Dashboard com indicadores em tempo real
 
-- Integração completa entre frontend e backend (API REST)
+* Visualização por categoria
 
----
+* Gestão de atendimentos:
 
-## 🧩 Arquitetura
+  * Desospitalização
+  * Pessoa Idosa
+  * Criança e Adolescente
+  * Unidades e Vagas
 
-O sistema segue uma arquitetura simples cliente-servidor:
-
-- O **backend** realiza a leitura e tratamento das planilhas CSV
-- Os dados são expostos através de endpoints REST
-- O **frontend** consome a API e renderiza os dados em tabelas e gráficos
+* Integração frontend + backend (API REST)
 
 ---
 
@@ -48,11 +37,34 @@ O sistema segue uma arquitetura simples cliente-servidor:
 
 ---
 
-## ▶️ Como rodar o projeto
+## ▶️ Como rodar
 
-### 🔧 Backend
+### Backend
 
-```bash
 cd backend
 npm install
 npm run dev
+
+Servidor: http://localhost:3001
+
+---
+
+### Frontend
+
+cd frontend
+npm install
+npm run dev
+
+Aplicação: http://localhost:5173
+
+---
+
+## 📌 Objetivo
+
+Projeto desenvolvido para simular um sistema real de gestão de acolhimento social.
+
+---
+
+## 👨‍💻 Autor
+
+Rafael Lobo
