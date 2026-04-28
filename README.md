@@ -1,30 +1,47 @@
 # Sistema de Gestão de Acolhimento
 
-Projeto full stack com:
+Sistema web full stack desenvolvido para gerenciamento de atendimentos e dados de acolhimento, com integração de planilhas e visualização em tempo real.
 
-- frontend em React + Vite
-- backend em Node.js + Express
-- leitura das planilhas CSV do Google Sheets pelo backend
-- módulos:
-  - Dashboard
-  - Desospitalização
-  - Pessoa Idosa
-  - Criança e Adolescente
-  - Unidades e Vagas
+---
 
-## Como rodar
+## 🚀 Tecnologias
 
-### 1. Backend
+* React + Vite
+* Node.js + Express
+* JavaScript
+
+---
+
+## 📊 Funcionalidades
+
+* Leitura de planilhas CSV (Google Sheets) via backend
+* Dashboard com dados organizados
+* Gestão de:
+
+  * Desospitalização
+  * Pessoa idosa
+  * Criança e adolescente
+  * Unidades e vagas
+* Integração frontend + backend
+
+---
+
+## ▶️ Como rodar
+
+### 🔧 Backend
+
 ```bash
 cd backend
 npm install
 npm run dev
 ```
 
-Servidor: http://localhost:3001
+Servidor:
+http://localhost:3001
 
-### 2. Frontend
-Em outro terminal:
+---
+
+### 💻 Frontend
 
 ```bash
 cd frontend
@@ -32,7 +49,23 @@ npm install
 npm run dev
 ```
 
-App: http://localhost:5173
+Aplicação:
+http://localhost:5173
 
-## Observação
-O backend faz a leitura das planilhas e o frontend só consome a API local.
+---
+
+## 📸 Preview
+
+*(adicione aqui uma imagem do sistema rodando)*
+
+---
+
+## 📌 Objetivo
+
+Projeto desenvolvido com foco em simular um sistema real utilizado na gestão de atendimentos sociais.
+
+---
+
+## 🔎 Observação
+
+O backend realiza a leitura das planilhas e disponibiliza os dados via API local, enquanto o frontend consome e exibe as informações de forma organizada.
